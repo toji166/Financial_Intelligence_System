@@ -1,0 +1,26 @@
+[
+  {
+    "id": "DOC001",
+    "title": "Reliance Industries Financial Disclosure",
+    "symbol": "RELIANCE",
+    "content": "Reliance Industries reported stable operational performance with continued investment across digital services, retail and energy businesses. Management indicated a positive long term outlook while highlighting capital expenditure requirements."
+  },
+  {
+    "id": "DOC002",
+    "title": "TCS Earnings Commentary",
+    "symbol": "TCS",
+    "content": "TCS reported steady demand across digital transformation and cloud services. Management maintained a cautious but constructive outlook for technology spending."
+  },
+  {
+    "id": "DOC003",
+    "title": "Infosys Financial Update",
+    "symbol": "INFY",
+    "content": "Infosys reported mixed demand conditions with pressure in selected technology segments. Management continues to focus on cost optimization and improving margins."
+  },
+  {
+    "id": "DOC004",
+    "title": "HDFC Bank Business Update",
+    "symbol": "HDFCBANK",
+    "content": "HDFC Bank continues to focus on loan growth, deposits and asset quality. The business outlook remains stable with attention to credit risk and liquidity."
+  }
+]
