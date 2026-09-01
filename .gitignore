@@ -7,3 +7,6 @@ __pycache__/
 .env.*
 *.log
 .DS_Store
+
+# Keep the example env file tracked for setup instructions
+!.env.example
