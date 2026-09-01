@@ -4,3 +4,6 @@ sqlalchemy
 pydantic
 python-dotenv
 httpx
+psycopg[binary]
+pgvector
+numpy

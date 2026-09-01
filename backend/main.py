@@ -7,8 +7,8 @@ import asyncio
 import time
 import json
 
-from database import engine, get_db
-from models import Base, User, Portfolio, AnalysisLog
+from database import engine, get_db, init_db
+from models import Base, User, Portfolio, Document, AnalysisLog
 from schemas import UserCreate, PortfolioCreate, AnalysisRequest
 
 from market import get_market_data
@@ -24,8 +24,8 @@ from agents import (
 
 from synthesis import synthesize
 
-# Create database tables
-Base.metadata.create_all(bind=engine)
+# Create database tables and vector extension
+init_db()
 
 
 app = FastAPI(
